@@ -24,6 +24,9 @@ h2 {
     font-family: 'SF New Republic', sans-serif;
     font-size: 2em;
 }
+
+
+
 .title {
     padding: 2em;
 }
@@ -114,4 +117,15 @@ select:hover,
 select:focus {
     background-color: #1f00cc;  
     border-color: #1a00b3;
+}
+
+.generate-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: var(--primary-blue);
+    border: none;
+    margin: 50px auto;
+    cursor: pointer;
+    border-radius: 8px;
 }
