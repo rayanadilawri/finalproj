@@ -12,25 +12,35 @@
     <title>Final Project</title>
 </head>
 <body>
+    <section class="title"> 
     <h1>Design Dopamine</h1>
     <a href="page2.html" class="about-link"> About</a>
-    
+</section>
+
     <h2 class="boost-text">Get your Boost</h2>
     <p class="subtext">(For design lovers only)</p>
 
 
- <div class="options">
-            <div class="dropdown">
-                <label for="time">1. Time</label>
-                <select id="time">
-                    <option value="">Optional</option>
-                </select>
-            </div>
+    <div class="options">
+        <div class="dropdown">
+            <label for="time">1. Time (Optional)</label>
+            <select id="time">
+                <option value="" selected disabled>Select time (optional) </option>
+                <option value="5min">5 min</option>
+                <option value="15min">15 min</option>
+                <option value="30min">30 min</option>
+                <option value="1h">1 hour</option>
+                <option value="2h+">2 hours+</option>
+            </select>
+        </div>
 
                 <div class="dropdown">
-                    <label for="time">1. Effort</label>
-                    <select id="Effort">
-                        <option value="">Optional</option>
+                    <label for="effort">1. Effort</label>
+                    <select id="effort">
+                        <option value="" selected disabled>Select effort (optional) </option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
                     </select>
                 </div>
 </div>
