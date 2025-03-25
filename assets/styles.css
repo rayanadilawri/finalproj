@@ -129,3 +129,10 @@ select:focus {
     cursor: pointer;
     border-radius: 8px;
 }
+
+footer {
+    padding: 20px;
+    background-color: var(--primary-blue);
+    color: var(--text-white);
+    bottom: 0;
+}
