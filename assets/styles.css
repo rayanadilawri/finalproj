@@ -20,6 +20,10 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    font-family: 'SF New Republic', sans-serif;
+    font-size: 2em;
+}
 .title {
     padding: 2em;
 }
@@ -92,4 +96,22 @@ select {
     border: none;
     margin: 50px auto;
     cursor: pointer;
+}
+
+select {
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid var(--primary-blue);
+    background-color: var(--primary-blue); 
+    color: var(--text-white); 
+    cursor: pointer;
+    appearance: none; 
+    text-align: center;
+}
+
+select:hover,
+select:focus {
+    background-color: #1f00cc;  
+    border-color: #1a00b3;
 }
