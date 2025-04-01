@@ -5,16 +5,21 @@
     --text-white: white;
 }
 
-/* General Styles */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: var(--background-blue);
+    font-family: Arial, sans-serif;
     color: var(--text-white);
+    text-align: center;
 }
 
+main {
+    flex: 1;
+}
+
+/* Headings */
 h1 {
     font-family: 'SF New Republic', sans-serif;
     font-size: 3em;
@@ -24,8 +29,6 @@ h2 {
     font-family: 'SF New Republic', sans-serif;
     font-size: 2em;
 }
-
-
 
 .title {
     padding: 2em;
@@ -51,12 +54,6 @@ header {
     font-size: 20px;
     text-decoration: none;
     color: var(--primary-blue);
-}
-
-/* Main Section */
-.boost-text {
-    font-size: 28px;
-    margin-top: 50px;
 }
 
 .subtext {
@@ -85,40 +82,23 @@ header {
 
 select {
     font-size: 18px;
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-}
-
-/* Boost Button */
-.boost-button {
-    display: block;
-    width: 200px;
-    height: 50px;
-    background-color: var(--primary-blue);
-    border: none;
-    margin: 50px auto;
-    cursor: pointer;
-}
-
-select {
-    font-size: 18px;
     padding: 10px 15px;
     border-radius: 8px;
     border: 2px solid var(--primary-blue);
-    background-color: var(--primary-blue); 
-    color: var(--text-white); 
+    background-color: var(--primary-blue);
+    color: var(--text-white);
     cursor: pointer;
-    appearance: none; 
+    appearance: none;
     text-align: center;
 }
 
 select:hover,
 select:focus {
-    background-color: #1f00cc;  
+    background-color: #1f00cc;
     border-color: #1a00b3;
 }
 
+/* Buttons */
 .generate-button {
     display: block;
     width: 200px;
@@ -130,13 +110,18 @@ select:focus {
     border-radius: 8px;
 }
 
+/* Output List */
+.output li {
+    list-style-type: none;
+    margin: 1em 0;
+}
+
+/* Footer that stays at bottom */
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     padding: 20px;
     background-color: var(--primary-blue);
     color: var(--text-white);
     text-align: center;
+    margin-top: auto;
 }

@@ -21,7 +21,6 @@ const renderItems = () => {
         // mdn or w3 for getting an element by id
         // look up w3 and mdn for appending data to an array 
 
-
         let randomnumber = Math.floor(Math.random() * globaldata.length);
         let item = globaldata[randomnumber];
         let listItem = 
