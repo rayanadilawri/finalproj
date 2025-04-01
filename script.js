@@ -1,14 +1,29 @@
+let globaldata;
 // Function to render your items
-const renderItems = (data) => {
+const renderItems = () => {
 	// The `ul` where the items will be inserted
-	const dataList = document.getElementById('data-list')
+	const output = document.querySelector('.output')
 
 	// Loop through each item in the data array
 	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
-	data.forEach((item) => {
+	//data.forEach((item) => {
 		// Make a “template literal” as we have before, inserting your data (and maybe the class)
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-		let listItem =
+		let localdata = [];
+
+        //get selector in variables avaialable to me - time and effort so i know what the user is inputting 
+        //run through a forloop to go through global data 
+        // it will have an if statemenet -that says if the data in the forloop has an effort that is = to what the user has selected and at the same time iat the same time the user has selected, then append that data to the local data 
+        // the forloops goes through every entry in the global data and check if the effort and time is the same as the user input
+        // if it is then it will append that data to the local data otherwise it will pass 
+        // specific pages to look at - w3 school page for loops 
+        // mdn or w3 for getting an element by id
+        // look up w3 and mdn for appending data to an array 
+
+
+        let randomnumber = Math.floor(Math.random() * globaldata.length);
+        let item = globaldata[randomnumber];
+        let listItem = 
 			`
 			<li class="${item.effort}">
 				<p>${item.activitiy}</p>
@@ -17,11 +32,14 @@ const renderItems = (data) => {
 			</li>
 			`
 
-		dataList.insertAdjacentHTML('beforeend', listItem) // Add it to the `ul`!
-
+		output.innerHTML=listItem;
+         // Add it to the `ul`!
 		// Don’t feel limited to `ul > li` for these—you can insert any DOM, anywhere!
-	})
+//	})
 }
+
+let generate_button = document.querySelector('.generate-button')
+generate_button.addEventListener("click", renderItems);
 
 // Fetch gets your (local) JSON file…
 // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
@@ -29,5 +47,5 @@ fetch('csvjson.json')
 	.then(response => response.json())
 	.then(data => {
 		// And passes the data to the function, above!
-		renderItems(data)
+		(globaldata = data)
 	})
