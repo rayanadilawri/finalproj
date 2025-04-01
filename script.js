@@ -11,27 +11,44 @@ const renderItems = () => {
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 		let localdata = [];
 
-        //to do list
-        //get selector in variables avaialable to me - time and effort so i know what the user is inputting 
-        //run through a forloop to go through global data 
-        // it will have an if statemenet -that says if the data in the forloop has an effort that is = to what the user has selected and at the same time iat the same time the user has selected, then append that data to the local data 
-        // the forloops goes through every entry in the global data and check if the effort and time is the same as the user input
-        // if it is then it will append that data to the local data otherwise it will pass 
-        // specific pages to look at - w3 school page for loops 
-        // mdn or w3 for getting an element by id
-        // look up w3 and mdn for appending data to an array 
+
+
+ //to do list
+// get selector in variables available to me - time and effort so I know what the user is inputting
+// run through a for loop to go through global data
+// if the data in the for loop has an effort that is = to what the user has selected 
+// and at the same time the time is the same as what the user has selected, then append that data to the local data
+// the for loop goes through every entry in the global data and checks if the effort and time is the same as the user input
+// if it is, then it will append that data to the local data, otherwise it will pass
+// specific pages to look at - w3 school page for loops
+// mdn or w3 for getting an element by id
+// look up w3 and mdn for appending data to an array
+
+// // start - draft
+
+// let selectedEffort = document.getElementById('effort').id;
+// let selectedTime = document.getElementById('time').value;
+
+
+// for (let i = 0; i < globaldata.length; i++) {
+// 	let currentItem = globaldata[i];
+// 	if (currentItem.effort === selectedEffort && currentItem.time === selectedTime) {
+// 		localdata.push(currentItem);
+// 	}
+// }
+
+// // end
 
         let randomnumber = Math.floor(Math.random() * globaldata.length);
         let item = globaldata[randomnumber];
         let listItem = 
 			`
-			<li class="${item.effort}">
-				<p>${item.activitiy}</p>
+			<li>
+				<h2>${item.activitiy}</h2>
 				<p><strong>Time:</strong> ${item.time}</p>
 				<p><em>Effort: ${item.effort}</em></p>
 			</li>
 			`
-
 		output.innerHTML=listItem;
          // Add it to the `ul`!
 		// Don’t feel limited to `ul > li` for these—you can insert any DOM, anywhere!
@@ -48,4 +65,13 @@ fetch('csvjson.json')
 	.then(data => {
 		// And passes the data to the function, above!
 		(globaldata = data)
-	})
+	});
+
+
+
+
+
+
+
+
+    
