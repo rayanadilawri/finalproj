@@ -12,8 +12,7 @@ const renderItems = () => {
 		let localdata = [];
 
 
-
- //to do list
+//to do list
 // get selector in variables available to me - time and effort so I know what the user is inputting
 // run through a for loop to go through global data
 // if the data in the for loop has an effort that is = to what the user has selected 
@@ -24,13 +23,12 @@ const renderItems = () => {
 // mdn or w3 for getting an element by id
 // look up w3 and mdn for appending data to an array
 
-
         let randomnumber = Math.floor(Math.random() * globaldata.length);
         let item = globaldata[randomnumber];
         let listItem = 
 			`
 			<li>
-				<h2>${item.activitiy}</h2>
+				<h2>${item.activity}</h2>
 				<p><strong>Time:</strong> ${item.time}</p>
 				<p><em>Effort: ${item.effort}</em></p>
 			</li>
@@ -54,7 +52,18 @@ fetch('csvjson.json')
 	});
 
 
+// async function getData(){
+//     data.forEach(dataPoint) => {
+//         let time = dataPoint.time;
+//         let timevalue = document.getElementById("time").value;
+//         let effort = dataPoint.effort;
+//         let activity = dataPoint.activity;
 
+//         if (time.contains("5 min")){
+//             console.log("5 min");
+//         }
+//     }
+// };
 
 
 
