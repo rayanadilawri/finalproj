@@ -11,7 +11,7 @@ const renderItems = (data) => {
 		let listItem =
 			`
 			<li class="${item.effort}">
-				<h1>${item.activitiy}</h1>
+				<p>${item.activitiy}</p>
 				<p><strong>Time:</strong> ${item.time}</p>
 				<p><em>Effort: ${item.effort}</em></p>
 			</li>
