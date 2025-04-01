@@ -24,20 +24,6 @@ const renderItems = () => {
 // mdn or w3 for getting an element by id
 // look up w3 and mdn for appending data to an array
 
-// // start - draft
-
-// let selectedEffort = document.getElementById('effort').id;
-// let selectedTime = document.getElementById('time').value;
-
-
-// for (let i = 0; i < globaldata.length; i++) {
-// 	let currentItem = globaldata[i];
-// 	if (currentItem.effort === selectedEffort && currentItem.time === selectedTime) {
-// 		localdata.push(currentItem);
-// 	}
-// }
-
-// // end
 
         let randomnumber = Math.floor(Math.random() * globaldata.length);
         let item = globaldata[randomnumber];
