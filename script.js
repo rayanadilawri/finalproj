@@ -11,6 +11,7 @@ const renderItems = () => {
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 		let localdata = [];
 
+        //to do list
         //get selector in variables avaialable to me - time and effort so i know what the user is inputting 
         //run through a forloop to go through global data 
         // it will have an if statemenet -that says if the data in the forloop has an effort that is = to what the user has selected and at the same time iat the same time the user has selected, then append that data to the local data 
