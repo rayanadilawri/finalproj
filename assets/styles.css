@@ -110,6 +110,18 @@ select:focus {
     border-radius: 8px;
 }
 
+.random-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: var(--primary-blue);
+    border: none;
+    margin: 50px auto;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
 /* Output List */
 .output li {
     list-style-type: none;
