@@ -4,12 +4,24 @@ const renderItems = () => {
 	// The `ul` where the items will be inserted
 	const output = document.querySelector('.output')
 
+    const time = document.querySelector('#time');
+    const effort = document.querySelector('#effort');
+
 	// Loop through each item in the data array
 	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 	//data.forEach((item) => {
 		// Make a “template literal” as we have before, inserting your data (and maybe the class)
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 		let localdata = [];
+        for (let i=0; i<globaldata.length; i++){
+        if (globaldata[i].effort == effort.value && globaldata[i].time == time.value){
+            localdata.push(globaldata[i]); 
+        }
+        };
+
+        console.log(localdata);
+        
+
 
 
 //to do list
@@ -23,8 +35,11 @@ const renderItems = () => {
 // mdn or w3 for getting an element by id
 // look up w3 and mdn for appending data to an array
 
-        let randomnumber = Math.floor(Math.random() * globaldata.length);
-        let item = globaldata[randomnumber];
+    
+
+
+        let randomnumber = Math.floor(Math.random() * localdata.length);
+        let item = localdata[randomnumber];
         let listItem = 
 			`
 			<li>
@@ -41,6 +56,9 @@ const renderItems = () => {
 
 let generate_button = document.querySelector('.generate-button')
 generate_button.addEventListener("click", renderItems);
+
+// renderItems();
+
 
 // Fetch gets your (local) JSON file…
 // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
