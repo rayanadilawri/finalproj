@@ -1,8 +1,8 @@
 /* Define CSS Variables */
 :root {
-    --primary-blue: #2800ff;
-    --background-blue: #79C8FF;
-    --text-white: white;
+    --primary-blue: #0091ff;
+    --background-blue: #f8ffdf;
+    --text-white: rgb(238, 128, 18);
 }
 
 html, body {
