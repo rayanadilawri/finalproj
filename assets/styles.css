@@ -132,6 +132,16 @@ html {
     min-height: 50vh; 
   }
 
+  .right-image6 {
+    flex: 1;
+    background-image: url('../assets/image6.jpg'); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh; 
+  }
+
+
 #step6 {
     background-color: var(--step-6);
 }
@@ -273,6 +283,15 @@ footer {
     background-repeat: no-repeat;
     min-height: 100vh; 
   }
+
+  .right-image6 {
+    flex: 1;
+    background-image: url('../assets/image6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+  }
   
   .left-image3 {
     flex: 1;
@@ -307,6 +326,8 @@ footer {
     background-repeat: no-repeat;
     min-height: 100vh; 
   }
+
+
   
   .text-half {
     flex: 1;
