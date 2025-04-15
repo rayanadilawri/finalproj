@@ -2,14 +2,15 @@
 :root {
     --primary-blue: #57aff1;
     --background-blue: #ffffff;
-    --text-white: rgb(213, 146, 225);
-    --step-0: #D8F5F7;
+    --text-white: rgb(255, 255, 255);
+    --step-0: #ffd68a;
     --step-1: #F87171;
     --step-2: #3C4AC7;
     --step-3:#E4A6F6;
     --step-4: #A9E2AD;
     --step-5: #FFCB8E;
     --step-6: #FF9AA2;
+    --text-dark: rgb(14, 2, 51); 
 }
 
 html, body {
@@ -37,21 +38,57 @@ html {
 
   #step0 {
     background-image: url('../assets/gradient0.jpg');
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    color: var(--text-dark);
+    background-color: var(--step-0);
+  }
+
+  #step1 {
+    background-color: rgb(245, 196, 255);
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  .left-image1 {
+    flex: 1;
+    background-image: url('../assets/image1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
-    padding: 4rem 2rem;
-    color: navy;
+    min-height: 50vh; 
   }
+  
+  .text-half {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-#step1 {
-    background-color: var(--step-1);
-}
+  }
 
 #step2 {
     background-color: var(--step-2);
 }
+
+.right-image2 {
+    background-image: url('../assets/image2.jpeg'); 
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh; 
+  }
 
 #step3 {
     background-color: var(--step-3);
@@ -180,4 +217,49 @@ footer {
     background-color: var(--primary-blue);
     text-align: center;
     margin-top: auto;
+}
+
+
+@media screen and (min-width: 800px) {
+ 
+    #step0 {
+
+        background-repeat: repeat;
+        background-size: auto; 
+        background-position: left;
+    }
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+
+  .left-image1 {
+    flex: 1;
+    background-image: url('../assets/image1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+  }
+  
+  .text-half {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .right-image2 {
+    flex: 1;
+    background-image: url('../assets/image2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+  }
+  
 }
