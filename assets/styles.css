@@ -36,8 +36,13 @@ html {
   }
 
   #step0 {
-    background-color: var(--step-0);
-}
+    background-image: url('../assets/gradient0.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+  }
 
 #step1 {
     background-color: var(--step-1);
