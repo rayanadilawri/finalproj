@@ -29,7 +29,7 @@ html {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior */
 
   section {
-    min-height: 100vh;
+    min-height: 95vh;
     padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@ html {
     opacity: 0.8;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 97vh;
     padding: 4rem 2rem;
     color: var(--text-dark);
     background-color: var(--step-0);
@@ -58,7 +58,7 @@ html {
   .section-content {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 95%;
     width: 100%;
   }
 
@@ -225,6 +225,46 @@ select {
 
 
 /* Buttons */
+
+#effort {
+    background-color: #f4c2c2; 
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 15px 25px;
+
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+#time {
+    background-color: #f4c2c2; 
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 15px 25px;
+
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#type {
+    background-color: #f4c2c2; 
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 15px 25px;
+
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
 .generate-button {
     display: block;
     width: 200px;
@@ -247,9 +287,9 @@ select {
     border-radius: 8px;
 }
 
-.anchor-scroll-button {
+.anchor-scroll-button  {
     display: inline-block;
-    padding: 6px 12px;
+    padding: 10px 14px;
     text-decoration: none;
     border-radius: 4px; 
     font-size: 14px;
@@ -257,12 +297,12 @@ select {
   }
   
 
-  .anchor-group {
-  display: flex;
-  gap: 12px; 
-  margin-top: 16px; 
-  justify-content: center;
-}
+.anchor-group {
+    flex-direction: column;     
+    align-items: center;      
+    gap: 1.5rem;               
+    padding-bottom: 3rem;     
+  }
 
 .continue-button {
 background-color: #f29deb;
@@ -315,7 +355,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh; 
+    min-height: 95vh; 
   }
 
   .right-image6 {
@@ -324,7 +364,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh; 
+    min-height: 95vh; 
   }
   
   .left-image3 {
@@ -332,7 +372,7 @@ footer {
     background-image: url('../assets/image3.jpeg');
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 95vh;
   }
 
   .left-image5 {
@@ -340,7 +380,7 @@ footer {
     background-image: url('../assets/image5.jpeg');
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 95vh;
   }
 
   .right-image2 {
@@ -349,7 +389,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh; 
+    min-height: 95vh; 
   }
 
   .right-image4 {
@@ -358,7 +398,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh; 
+    min-height: 95vh; 
   }
 
 
@@ -375,7 +415,7 @@ footer {
       flex-direction: row; 
         display: flex;
         flex-direction: row;
-        height: 100%;
+        height: 95%;
         width: 100%;
       }
   
@@ -384,5 +424,14 @@ footer {
       flex-direction: row-reverse;
     }
   
+    .anchor-group  {
+        display: flex;
+        flex-direction: row;
+        gap: 8em;
+        justify-content: center;
+        margin-top: auto;
+        padding-bottom: 6rem; 
+    
+    }
 
 }
