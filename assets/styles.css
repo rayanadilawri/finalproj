@@ -267,23 +267,40 @@ select {
     box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 }
 
-
+/* 
 .generate-button {
     display: block;
     width: 200px;
     height: 50px;
-    background-color: var(--text-white);
+    background-color: #ef70e5;
     border: none;
     margin: 50px auto;
     cursor: pointer;
     border-radius: 8px;
-}
+} */
+
+.generate-button {
+    background-color: #ef70e5;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    margin: 50px auto;
+    display: block;
+    }
+    
+    .generate-button:hover {
+        background-color: #84076b;
+        color: white;
+        font-weight: bold;
+        }
+
 
 .random-button {
     display: block;
     width: 200px;
     height: 50px;
-    background-color: var(--text-white);
+    background-color: ;
     border: none;
     margin: 50px auto;
     cursor: pointer;
