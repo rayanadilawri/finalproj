@@ -84,6 +84,16 @@ fetch('csvjson.json')
 // };
 
 
+document.querySelector(".generate-button").addEventListener("click", () => {
+	document.getElementById("step6").scrollIntoView({ behavior: "smooth" });
+  });
+
+
+  // i used https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+  //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+// this was helpful for my work beccase it achieves the task i wanted 
+// query selector gets the generater button and the event its listening to is to guide the viewer to step 6 (the activity result page)
+
 
 
 
