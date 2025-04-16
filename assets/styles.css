@@ -381,7 +381,15 @@ footer {
   }
    */
 
-
+   .vertical-nav {
+    position: fixed;
+    top: 0;
+    right: 1.55em;
+    height: 100vh;
+    display: flex;
+    align-items: center;  
+    z-index: 99999;
+  }
 
 @media screen and (min-width: 800px) {
  
