@@ -309,11 +309,13 @@ select {
 
 .continue-button {
 background-color: #ef70e5;
+font-weight: bold;
 }
 
 .continue-button:hover {
     background-color: #84076b;
     color: white;
+    font-weight: bold;
     }
 
 .back-button {
