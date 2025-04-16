@@ -359,7 +359,7 @@ footer {
     margin-top: auto;
 }
 
-
+/* 
 .back-to-top {
     position: fixed;
     bottom: 20px;
@@ -379,7 +379,8 @@ footer {
   .back-to-top:hover {
     background-color: var(--primary-blue);
   }
-  
+   */
+
 
 
 @media screen and (min-width: 800px) {
