@@ -14,7 +14,13 @@ const renderItems = () => {
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 		let localdata = [];
         for (let i=0; i<globaldata.length; i++){
-        if (globaldata[i].effort == effort.value && globaldata[i].time == time.value){
+        
+			if (effort.value == "" && time.value == ""){ localdata.push(globaldata[i]);}
+			else if (effort.value == ""){ localdata.push(globaldata[i]); }
+			else if (time.value == ""){ localdata.push(globaldata[i]); }
+				//add same for type//
+				
+			else if (globaldata[i].effort == effort.value && globaldata[i].time == time.value){
             localdata.push(globaldata[i]); 
         }
         };
