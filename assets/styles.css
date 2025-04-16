@@ -5,7 +5,7 @@
     --text-white: rgb(255, 255, 255);
     --step-0: #ffd68a;
     --step-1: #F87171;
-    --step-2: #3C4AC7;
+    --step-2: #616fea;
     --step-3:#ff8dca;
     --step-4: #ff8f9a;
     --step-5: #fca32f;
@@ -18,7 +18,6 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: var(--background-blue);
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -37,6 +36,11 @@ html {
     justify-content: center;
   }
 
+  .section-content {
+    display: flex;
+    flex-direction: column; 
+  }
+  
 
   #step0 {
     background-image: url('../assets/gradient0.jpg');
@@ -213,8 +217,6 @@ select {
     font-size: 18px;
     padding: 10px 15px;
     border-radius: 8px;
-    border: 2px solid var(--primary-blue);
-    background-color: var(--primary-blue);
     cursor: pointer;
     appearance: none;
     text-align: center;
@@ -238,13 +240,47 @@ select {
     display: block;
     width: 200px;
     height: 50px;
-    background-color: var(--primary-blue);
+    background-color: var(--text-white);
     border: none;
     margin: 50px auto;
     cursor: pointer;
     border-radius: 8px;
 }
 
+.anchor-scroll-button {
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px; 
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+
+  .anchor-group {
+  display: flex;
+  gap: 12px; 
+  margin-top: 16px; 
+  justify-content: center;
+}
+
+.continue-button {
+background-color: #f29deb;
+}
+
+.continue-button:hover {
+    background-color: #9e0a83;
+    color: white;
+    }
+
+.back-button {
+background-color: #57aff1;
+}
+
+.back-button:hover {
+    background-color: #103ed5;
+    color: white;
+    }
 
 /* Output List */
 .output li {
@@ -270,12 +306,7 @@ footer {
         background-position: left;
     }
 
-.section-content {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
-  }
+
 
 
   .left-image1 {
@@ -340,5 +371,18 @@ footer {
     justify-content: center;
   }
 
+    .section-content {
+      flex-direction: row; 
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+      }
+  
+ 
+    .text-on-left {
+      flex-direction: row-reverse;
+    }
+  
 
 }

@@ -20,17 +20,21 @@
         <section id="step0">
     <h1>The Design Dopamine Menu</h1>
     <a href="page2.html" class="my-history">Our Masterpieces</a>
-    <a href="#step1" class="anchor-scroll-button">Find your activity</a>
+    <div class="anchor-group"> 
+    <a href="#step1" class="anchor-scroll-button continue-button">Find your activity</a>
+    </div>
 </section>
 
 <section id="step1">
-    <div class="section-content">
+    <div class="section-content text-on-left">
       <div class="left-image1"></div> 
       <div class="text-half">
         <h2>About the activity</h2>
         <p>text text text</p>
-        <a href="#step2" class="anchor-scroll-button">Continue to Step 2</a>
-        <a href="#step0" class="anchor-scroll-button">back</a>
+        <div class="anchor-group"> 
+        <a href="#step0" class="anchor-scroll-button back-button"> back</a>
+        <a href="#step2" class="anchor-scroll-button continue-button">Continue to Step 2</a>
+        </div>
       </div>
     </div>
   </section>
@@ -40,7 +44,8 @@
 
 
 <section id="step2">
-    <div class="section-content image-on-top-mobile">
+    <div class="section-content">
+        <div class="image-half right-image2"></div>
       <div class="text-half">
         <h2>Step 2</h2>
         <div class="dropdown">
@@ -54,10 +59,11 @@
             <option value="2 hours+">2 hours+</option>
           </select>
         </div>
-        <a href="#step3" class="anchor-scroll-button">Continue to Step 3</a>
-        <a href="#step2" class="anchor-scroll-button">back</a>
+        <div class="anchor-group">
+            <a href="#step2" class="anchor-scroll-button back-button">back</a>
+            <a href="#step3" class="anchor-scroll-button continue-button">Continue to Step 3</a>
+        </div>
       </div>
-      <div class="image-half right-image2"></div>
     </div>
   </section>
 
@@ -74,7 +80,7 @@
 
 
   <section id="step3">
-    <div class="section-content">
+    <div class="section-content text-on-left">
       <div class="left-image3"></div> 
       <div class="text-half">
         <h2>Step 3</h2>
@@ -87,14 +93,17 @@
             <option value="high">High</option>
           </select>
         </div>
-        <a href="#step4" class="anchor-scroll-button">Continue to Step 4</a>
-        <a href="#step2" class="anchor-scroll-button">back</a>
+        <div class="anchor-group"> 
+            <a href="#step2" class="anchor-scroll-button back-button">back</a>
+            <a href="#step4" class="anchor-scroll-button continue-button">Continue to Step 4</a>
       </div>
+    </div>
     </div>
   </section>
 
   <section id="step4">
-    <div class="section-content image-on-top-mobile">
+    <div class="section-content">
+        <div class="right-image4"></div> 
       <div class="text-half">
         <h2>Step 4</h2>
         <div class="dropdown">
@@ -105,16 +114,17 @@
             <option value="physical">physical</option>
           </select>
         </div>
-        <a href="#step5" class="anchor-scroll-button">Continue to Step 5</a>
-        <a href="#step3" class="anchor-scroll-button">back</a>
+        <div class="anchor-group"> 
+            <a href="#step3" class="anchor-scroll-button back-button">back</a>
+            <a href="#step5" class="anchor-scroll-button continue-button">Continue to Step 5</a>
       </div>
-      <div class="right-image4"></div> 
+    </div>
     </div>
   </section>
 
 
 <section id="step5">
-  <div class="section-content">
+  <div class="section-content text-on-left">
     <div class="left-image5"></div> 
     <div class="text-half">
       <h2>Step 5</h2>
@@ -124,28 +134,35 @@
       <div class="output"></div>
 
       <p class="subtext">(Let's get nostalgic and design for fun sometimes)</p>
-
-      <a href="#step6" class="anchor-scroll-button">Continue to Step 6</a>
-      <a href="#step4" class="anchor-scroll-button">back</a>
+      <div class="anchor-group"> 
+        <a href="#step4" class="anchor-scroll-button back-button">back</a>
+        <a href="#step6" class="anchor-scroll-button continue-button">Continue to Step 6</a>
+      </div>
     </div>
   </div>
 </section>
 
 
 <section id="step6">
-    <div class="section-content image-on-top-mobile">
+    <div class="section-content">
+        <div class="right-image6"></div> 
       <div class="text-half">
         <h2>Step 6 (optional)</h2>
         <h3>Upload your masterpiece</h3>
-        <a href="#step5" class="anchor-scroll-button">back</a>
-        <a href="#step2" class="anchor-scroll-button">redo from beginning</a>
+        <p> Take a photo or screenshot of your work and upload it to our figjam for creative inspiration</p>
+        <p><a href="https://www.figma.com/board/bjCeBV0RfX1yLhOlxQpMSj/Untitled?node-id=0-1&t=KK44xPfSaJdB7HGK-1" target="_blank">here</a></p>
+        <div class="anchor-group"> 
+            <a href="#step2" class="anchor-scroll-button back-button">redo from beginning</a>
+        <a href="#step5" class="anchor-scroll-button continue-button">back</a>
+        </div>
       </div>
-      <div class="right-image6"></div> 
     </div>
   </section>
 </main>
 </body>
 
+<!-- target blank 
+learned this here https://css-tricks.com/targetblank/ -->
 
 
 <footer>
