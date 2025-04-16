@@ -13,6 +13,7 @@
     --text-dark: rgb(14, 2, 51); 
 }
 
+
 html, body {
     height: 100%;
     display: flex;
@@ -35,6 +36,7 @@ html {
     flex-direction: column;
     justify-content: center;
   }
+
 
   #step0 {
     background-image: url('../assets/gradient0.jpg');
@@ -275,6 +277,7 @@ footer {
     width: 100%;
   }
 
+
   .left-image1 {
     flex: 1;
     background-image: url('../assets/image1.png');
@@ -336,5 +339,6 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
+
 
 }
