@@ -237,7 +237,7 @@ select {
 
     font-weight: bold;
     font-size: 18px;
-    box-shadow: 0 4px 6px #eea1a1(0, 0, 0, 0.2);
+    box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 
 }
 
@@ -251,7 +251,7 @@ select {
 
     font-weight: bold;
     font-size: 18px;
-    box-shadow: 0 4px 6px #eea1a1(0, 0, 0, 0.2);
+    box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 }
 
 #type {
@@ -264,7 +264,7 @@ select {
 
     font-weight: bold;
     font-size: 18px;
-    box-shadow: 0 4px 6px #eea1a1(0, 0, 0, 0.2);
+    box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 }
 
 
