@@ -305,11 +305,11 @@ select {
   }
 
 .continue-button {
-background-color: #f29deb;
+background-color: #ef70e5;
 }
 
 .continue-button:hover {
-    background-color: #9e0a83;
+    background-color: #84076b;
     color: white;
     }
 
