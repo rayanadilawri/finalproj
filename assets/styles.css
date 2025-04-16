@@ -342,6 +342,26 @@ footer {
     margin-top: auto;
 }
 
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 16px;
+    font-size: 16px;
+    background-color: var(--primary-blue);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.6);
+    z-index: 1000;
+    transition: opacity 0.8s ease;
+  }
+  
+  #backToTop:hover {
+    background-color: #555;
+  }
+
 
 @media screen and (min-width: 800px) {
  
