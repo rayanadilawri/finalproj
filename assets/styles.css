@@ -391,6 +391,17 @@ footer {
     z-index: 99999;
   }
 
+  .vertical-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    padding: 1rem 1rem;
+    background-color: var(--step-3);
+    border: 1px solid black;
+    border-radius: 16px;
+  }
+
 @media screen and (min-width: 800px) {
  
     #step0 {
