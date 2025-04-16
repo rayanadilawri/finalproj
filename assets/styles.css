@@ -47,7 +47,7 @@ html {
     opacity: 0.8;
     background-size: cover;
     background-position: center;
-    min-height: 97vh;
+    min-height: 92vh;
     padding: 4rem 2rem;
     color: var(--text-dark);
     background-color: var(--step-0);
