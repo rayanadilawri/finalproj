@@ -4,7 +4,7 @@
     --background-blue: #ffffff;
     --text-white: rgb(255, 255, 255);
     --step-0: #ffd68a;
-    --step-1: #F87171;
+    --step-1: #f49393;
     --step-2: #616fea;
     --step-3:#ff8dca;
     --step-4: #ff8f9a;
@@ -71,7 +71,7 @@ html {
 
   .text-half {
     flex: 1;
-    padding: 2rem;
+    padding: 0.4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,6 +150,12 @@ html {
     background-color: var(--step-6);
 }
 
+p {
+  padding-top: 0.2em;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
 
 main {
     flex: 1;
@@ -169,6 +175,7 @@ h2 {
 .title {
     padding: 2em;
 }
+
 
 
 /* Header */
@@ -191,6 +198,7 @@ header {
 .subtext {
     font-size: 14px;
     font-style: italic;
+    padding: 1em;
 }
 
 /* Dropdowns */
@@ -204,6 +212,7 @@ header {
 .dropdown {
     text-align: center;
     font-size: 20px;
+    padding: 1em;
 }
 
 .dropdown label {
@@ -220,10 +229,6 @@ select {
     text-align: center;
 }
 
-p {
-  padding: 0.2em;
-  font-size: 1.2em;
-}
 
 
 /* Buttons */
@@ -436,14 +441,14 @@ footer {
     text-align: center;
     display: block;
   }
-  /* will add back in once javascript is figured out */
-  /* .vertical-nav .nav-link.active {
+
+  .vertical-nav .nav-link.active {
     background-color: #84076b;
     color: white; 
     font-weight: 900;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   }
-   */
+   
 
   @media screen and (max-width: 799px) {
     .right-image6 {
@@ -462,6 +467,15 @@ footer {
     font-size: 4em;
   }
 
+  p {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+
+  
     #step0 {
         background-repeat: repeat;
         background-size: auto; 
