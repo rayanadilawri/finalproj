@@ -109,6 +109,8 @@ const navLinks = document.querySelectorAll(".nav-link");
 // https://stackoverflow.com/questions/43500315/highlighting-links-based-on-scroll-position
 // https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
 
+
+// THIS IS WHAT GIVES THE VERTICAL SCROLL FUNCTION HERE - NEED TO SAVE THIS 
 window.addEventListener("scroll", () => {
 	let current = "";
 
