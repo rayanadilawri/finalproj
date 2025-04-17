@@ -121,6 +121,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 //this helped me with the scrolling function
 //It was helpful for my project to build the vertical scroll nav 
 // it works by getting the current position of the scroll and relating it to the number / position of the sections//
+//it works to highlight the current section the user is lookjng at//
 
 //https://www.freecodecamp.org/news/how-to-create-a-scrollspy-with-javascript///
 // https://stackoverflow.com/questions/43500315/highlighting-links-based-on-scroll-position?.com //
