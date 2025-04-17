@@ -34,12 +34,14 @@ html {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior */
 
   section {
-    min-height: 95vh;
-    padding: 4rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+
+      min-height: 90vh; 
+      padding: 4rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
 
   .section-content {
     display: flex;
@@ -52,7 +54,7 @@ html {
     opacity: 0.8;
     background-size: cover;
     background-position: center;
-    min-height: 92vh;
+    min-height: 95vh;
     padding: 4rem 2rem;
     color: var(--text-dark);
     background-color: var(--step-0);
@@ -443,15 +445,20 @@ footer {
   }
    */
 
-   @media screen and (max-width: 799px) {
+  @media screen and (max-width: 799px) {
     .right-image6 {
       display: none;
     }
   }
 
   
+
 @media screen and (min-width: 800px) {
  
+  section {
+    min-height: 95vh;
+  }
+
   h1 {
     font-family: 'Bochan Serif', sans-serif; 
     font-size: 4em;
