@@ -19,7 +19,7 @@ const renderItems = () => {
 			else if (effort.value == ""){ localdata.push(globaldata[i]); }
 			else if (time.value == ""){ localdata.push(globaldata[i]); }
 				//add same for type//
-				
+
 			else if (globaldata[i].effort == effort.value && globaldata[i].time == time.value){
             localdata.push(globaldata[i]); 
         }
