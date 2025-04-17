@@ -111,6 +111,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 
 //continue writing hode HERE!!!!!!!!!
 
+
   
 // this is the function that will highlight the nav link when the user scrolls to a section
 // it works by getting the  position of the scroll and relating it to the number / position of the sections to highligh ti 
