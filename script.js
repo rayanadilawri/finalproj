@@ -101,7 +101,28 @@ document.querySelector(".generate-button").addEventListener("click", () => {
 // query selector gets the generater button and the event its listening to is to guide the viewer to step 6 (the activity result page)
 
 
+const sections = document.querySelectorAll("section[id^='step']");
+const navLinks = document.querySelectorAll(".nav-link");
+
+
+//these grab the elements that are section with step included. the part that says step 1 is a css selector and 
+//[id^='step'] means that it  selects all elements with an id that starts with step
+// line 2 finds alll .nav-link elements so when i have css with this it will grab them
+
+//continue writing hode HERE!!!!!!!!!
 
 
 
+
+
+// resources
+//resources that helped me with this JS//
+//https://javascript.info/onscroll//
+//this helped me with the scrolling function
+//It was helpful for my project to build the vertical scroll nav 
+// it works by getting the current position of the scroll and relating it to the number / position of the sections//
+
+//https://www.freecodecamp.org/news/how-to-create-a-scrollspy-with-javascript///
+// https://stackoverflow.com/questions/43500315/highlighting-links-based-on-scroll-position?.com //
+//https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API//
 
