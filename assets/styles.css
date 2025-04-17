@@ -80,7 +80,7 @@ html {
 
 
   #step1 {
-    background-color: rgb(255, 216, 158);
+    background-color: var(--step-1);
   }
   
   .left-image1 {
@@ -449,9 +449,7 @@ footer {
     .right-image6 {
       display: none;
     }
-  }
-
-  
+  } 
 
 @media screen and (min-width: 800px) {
  
