@@ -12,6 +12,9 @@
     --step-6: #bbf7af;
     --text-dark: rgb(14, 2, 51); 
     --progress: #f3afed;
+
+   --continue: #e934da;
+   --continue-hover: #83005b;
 }
 
 
@@ -162,7 +165,7 @@ main {
 /* Headings */
 h1 {
   font-family: 'Bochan Serif', sans-serif; 
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h2 {
@@ -224,24 +227,17 @@ select {
     text-align: center;
 }
 
+p {
+  padding: 0.2em;
+  font-size: 1.2em;
+}
 
 
 /* Buttons */
 
-#effort {
-    background-color: white; 
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    font-size: 14px;
-    cursor: pointer;
-    padding: 15px 25px;
 
-    font-weight: bold;
-    font-size: 18px;
-    box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 
-}
+
 
 #time {
     background-color: white; 
@@ -252,21 +248,43 @@ select {
     padding: 15px 25px;
 
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1em;
     box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
+
+    margin: 0 auto 1.2em auto; 
+    display: block;
 }
 
 #type {
-    background-color: white; 
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    cursor: pointer;
-    padding: 15px 25px;
+  background-color: white; 
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 15px 25px;
 
-    font-weight: bold;
-    font-size: 18px;
-    box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-size: 1em;
+  box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
+
+  margin: 0 auto 1.2em auto; 
+  display: block;
+}
+
+#effort {
+  background-color: white; 
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 15px 25px;
+
+  font-weight: bold;
+  font-size: 1em;
+  box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
+
+  margin: 0 auto 1.2em auto; 
+  display: block;
 }
 
 /* 
@@ -284,11 +302,12 @@ select {
 .generate-button {
     background-color: #ef70e5;
     font-weight: bold;
-    width: 200px;
-    height: 50px;
+    width: 5em;
+    height: 3em;
     border-radius: 8px;
     margin: 50px auto;
     display: block;
+    font-size: 1.5em;
     }
     
     .generate-button:hover {
@@ -327,18 +346,20 @@ select {
     }
 
 .continue-button {
-background-color: #ef70e5;
+background-color: var(--continue);
 font-weight: bold;
+font-size: 1.2em;
 }
 
 .continue-button:hover {
-    background-color: #84076b;
+    background-color: var(--continue-hover);
     color: white;
     font-weight: bold;
     }
 
 .back-button {
 background-color: #57aff1;
+font-size: 1.2em;
 }
 
 .back-button:hover {
@@ -356,7 +377,7 @@ background-color: #57aff1;
 footer {
     width: 100%;
     padding: 20px;
-    background-color: var(--primary-blue);
+    background-color: var(--progress);
     text-align: center;
     margin-top: auto;
 }
@@ -426,6 +447,11 @@ footer {
 
 @media screen and (min-width: 800px) {
  
+  h1 {
+    font-family: 'Bochan Serif', sans-serif; 
+    font-size: 4em;
+  }
+
     #step0 {
         background-repeat: repeat;
         background-size: auto; 
