@@ -252,6 +252,7 @@ select {
 
     margin: 0 auto 1.2em auto; 
     display: block;
+    text-align: center;
 }
 
 #type {
@@ -268,6 +269,7 @@ select {
 
   margin: 0 auto 1.2em auto; 
   display: block;
+  text-align: center;
 }
 
 #effort {
@@ -284,6 +286,7 @@ select {
 
   margin: 0 auto 1.2em auto; 
   display: block;
+  text-align: center;
 }
 
 /* 
