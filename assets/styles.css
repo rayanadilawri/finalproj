@@ -143,15 +143,6 @@ html {
     min-height: 50vh; 
   }
 
-  .right-image6 {
-    flex: 1;
-    background-image: url('../assets/image6.jpg'); 
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 50vh; 
-  }
-
 
 #step6 {
     background-color: var(--step-6);
@@ -300,18 +291,19 @@ p {
 } */
 
 .generate-button {
-    background-color: #ef70e5;
+   background-color: var(--continue);
     font-weight: bold;
-    width: 5em;
-    height: 3em;
+    width:auto;
+    height:auto;
     border-radius: 8px;
     margin: 50px auto;
     display: block;
     font-size: 1.5em;
+    padding: 16px 20px;
     }
     
     .generate-button:hover {
-        background-color: #84076b;
+        background-color: var(--continue-hover);
         color: white;
         font-weight: bold;
         }
@@ -371,6 +363,12 @@ font-size: 1.2em;
 .output li {
     list-style-type: none;
     margin: 1em 0;
+}
+
+.output {
+  font-family: 'SF New Republic', sans-serif;
+  font-size: 0.8rem; 
+  font-weight: normal;
 }
 
 /* Footer that stays at bottom */
@@ -445,6 +443,13 @@ footer {
   }
    */
 
+   @media screen and (max-width: 799px) {
+    .right-image6 {
+      display: none;
+    }
+  }
+
+  
 @media screen and (min-width: 800px) {
  
   h1 {
