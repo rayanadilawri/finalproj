@@ -332,6 +332,7 @@ select {
   border-radius: 4px; 
   font-size: 14px;
   font-weight: 500;
+  width: 8em;
 }
 
 
@@ -356,8 +357,8 @@ select {
 background-color: var(--continue);
 font-weight: bold;
 font-size: 1.2em;
-padding: 16px 20px;
-width: 6em;
+padding: 8px 12px;
+width: 8em;
 text-align: center;
 }
 
@@ -370,8 +371,8 @@ text-align: center;
 .back-button {
 background-color: #57aff1;
 font-size: 1.2em;
-padding: 16px 20px;
-width: 6em;
+padding: 8px 12px;
+width: 8em;
 text-align: center;
 }
 
@@ -650,12 +651,14 @@ p {
     border-radius: 4px; 
     font-size: 14px;
     font-weight: 500;
+    
   }
 
   .continue-button {
     background-color: var(--continue);
     font-weight: bold;
     font-size: 1.6em;
+    width: 10em;
     }
     
     .continue-button:hover {
@@ -667,6 +670,7 @@ p {
     .back-button {
     background-color: #57aff1;
     font-size: 1.6em;
+    width: 10em;
     }
     
     .back-button:hover {
