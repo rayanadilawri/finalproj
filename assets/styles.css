@@ -178,7 +178,7 @@ font-size: 2em;
 h2 {
 font-family: 'Bochan Serif', sans-serif; 
 font-size: 2em;
-padding: 0.2em;
+padding-bottom: 0.2em;
 }
 
 .title {
@@ -258,7 +258,7 @@ select {
   font-size: 1em;
   box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 
-  margin: 0 auto 1.2em auto; 
+  margin: 1.2em auto; 
   display: block;
   text-align: center;
 }
@@ -275,7 +275,7 @@ font-weight: bold;
 font-size: 1em;
 box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 
-margin: 0 auto 1.2em auto; 
+margin: 1.2em auto; 
 display: block;
 text-align: center;
 }
@@ -292,7 +292,7 @@ font-weight: bold;
 font-size: 1em;
 box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 
-margin: 0 auto 1.2em auto; 
+margin: 1.2em auto; 
 display: block;
 text-align: center;
 }
