@@ -69,7 +69,7 @@ const renderItems = () => {
 		let listItem = `
 			<li>
 				<h2>${item.activity}</h2>
-				<p><strong>Time:</strong> ${item.time}</p>
+				<p><em>Time: ${item.time}</em></p>
 				<p><em>Effort: ${item.effort}</em></p>
 				<p><em>Type: ${item.type}</em></p>
 			</li>
