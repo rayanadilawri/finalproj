@@ -258,7 +258,7 @@ select {
   font-size: 1em;
   box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 
-  margin: 1.2em auto; 
+  margin: 0.6em auto; 
   display: block;
   text-align: center;
 }
@@ -275,7 +275,7 @@ font-weight: bold;
 font-size: 1em;
 box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 
-margin: 1.2em auto; 
+margin: 0.6em auto; 
 display: block;
 text-align: center;
 }
@@ -292,7 +292,7 @@ font-weight: bold;
 font-size: 1em;
 box-shadow: 0 6px 8px #340202(0, 0, 0, 0.5);
 
-margin: 1.2em auto; 
+margin: 0.6em auto; 
 display: block;
 text-align: center;
 }
