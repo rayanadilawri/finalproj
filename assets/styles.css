@@ -156,7 +156,7 @@ section {
 p {
 padding-top: 0.2em;
 font-size: 1em;
-line-height: 1em;
+line-height: 1.2em;
 }
 
 .intro {
@@ -502,7 +502,7 @@ p {
   padding-left: 2em;
   padding-right: 2em;
   /* padding-top: 1em; */
-  font-size: 1.2em;
+  font-size: 1.4em;
   line-height: 1.2em;
 }
 
