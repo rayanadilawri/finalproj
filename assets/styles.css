@@ -309,13 +309,13 @@ text-align: center;
   border-radius: 8px;
 } */
 
-.generate-button {
+/* .generate-button {
  background-color: var(--continue);
   font-weight: bold;
   width:auto;
   height:auto;
   border-radius: 8px;
-  margin: 50px auto;
+  margin: 10px auto;
   display: block;
   font-size: 1.5em;
   padding: 16px 20px;
@@ -325,8 +325,25 @@ text-align: center;
       background-color: var(--continue-hover);
       color: white;
       font-weight: bold;
-      }
+      } */
 
+      .generate-button {
+        background-color: var(--continue);
+        font-weight: bold;
+        font-size: 1.2em;
+
+        display: inline-block;
+        padding: 10px 14px;
+        text-decoration: none;
+        border-radius: 4px; 
+        font-weight: 500;
+        }
+        
+       .generate-button:hover {
+          background-color: var(--continue-hover);
+          color: white;
+          font-weight: bold;
+          } 
 
 .random-button {
   display: block;
