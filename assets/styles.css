@@ -153,16 +153,12 @@ section {
   background-color: var(--step-6);
 }
 
-p {
-padding-top: 0.2em;
-font-size: 1.2em;
-line-height: 1.2em;
-}
+
 
 .intro {
 text-align: left;
-padding: 0.2em;
-padding-bottom: 0.4em;
+padding-top: 1em;
+padding-bottom: 1em;
 }
 
 main {
@@ -499,16 +495,14 @@ h2 {
 }
 
 p {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 1.6em;
   /* padding-top: 1em; */
+  margin: 0.4em;
   font-size: 1.4em;
-  line-height: 1.2em;
+  line-height: 1.2em;  
 }
 
-.intro {
-  padding: 2.2em;
-  }
+
 
   #step0 {
       background-repeat: repeat;
