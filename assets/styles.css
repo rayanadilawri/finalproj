@@ -355,7 +355,6 @@ select {
   
 .continue-button {
 background-color: var(--continue);
-font-weight: bold;
 font-size: 1.2em;
 padding: 16px 20px;
 width: 8em;
@@ -379,6 +378,7 @@ text-align: center;
 .back-button:hover {
   background-color: #103ed5;
   color: white;
+  font-weight: bold;
   }
 
 /* Output List */
