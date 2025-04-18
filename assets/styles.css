@@ -543,8 +543,10 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 95vh; 
+  min-height: 100vh; 
+  min-width: 45vw;
 }
+
 
 .right-image6 {
   flex: 1;
@@ -552,7 +554,8 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 95vh; 
+  min-height: 100vh; 
+  min-width: 45vw;
 }
 
 .left-image3 {
@@ -560,7 +563,8 @@ p {
   background-image: url('../assets/image3.jpeg');
   background-size: cover;
   background-position: center;
-  min-height: 95vh;
+  min-height: 100vh; 
+  min-width: 45vw;
 }
 
 .left-image5 {
@@ -568,7 +572,8 @@ p {
   background-image: url('../assets/image5.jpeg');
   background-size: cover;
   background-position: center;
-  min-height: 95vh;
+  min-height: 100vh; 
+  min-width: 45vw;
 }
 
 .right-image2 {
@@ -577,7 +582,8 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 95vh; 
+  min-height: 100vh; 
+  min-width: 45vw;
 }
 
 .right-image4 {
@@ -586,7 +592,8 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 95vh; 
+  min-height: 100vh; 
+  min-width: 45vw;
 }
 
 
