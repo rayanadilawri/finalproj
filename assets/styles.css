@@ -162,8 +162,7 @@ line-height: 1em;
 .intro {
 font-size: 1.2em;
 text-align: left;
-padding-top: 1em;
-padding-bottom: 1em;
+padding:auto 1em ;
 }
 
 main {
@@ -508,7 +507,7 @@ p {
 }
 
 .intro {
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: left;
   padding: 2.2em;
   }
