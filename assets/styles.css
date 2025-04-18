@@ -421,7 +421,7 @@ footer {
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding: 0.2rem;
+  padding: 0.4rem;
   background-color:var(--progress);
   opacity: 0.8;
   border: 1px solid black;
