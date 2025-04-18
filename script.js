@@ -7,6 +7,7 @@ const renderItems = () => {
 
 	const time = document.querySelector('#time');
 	const effort = document.querySelector('#effort');
+	const type = document.querySelector('#type');
 
 	// Loop through each item in the data array
 	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
@@ -18,25 +19,36 @@ const renderItems = () => {
 
 	for (let i = 0; i < globaldata.length; i++) {
 		let item = globaldata[i];
-
-		// Case 1: If both time and effort are empty, include everything
-		if (effort.value === "" && time.value === "") {
+	
+		if (effort.value === "" && time.value === "" && type.value === "") {
 			localdata.push(item);
 		}
-		// Case 2: Only time is selected — match time only
-		else if (effort.value === "" && item.time === time.value) {
+		else if (effort.value === "" && type.value === "" && item.time === time.value) {
 			localdata.push(item);
 		}
-		// Case 3: Only effort is selected — match effort only
-		else if (time.value === "" && item.effort === effort.value) {
+		else if (time.value === "" && type.value === "" && item.effort === effort.value) {
 			localdata.push(item);
 		}
-		// Case 4: Both filters are selected — match both
-		else if (item.time === time.value && item.effort === effort.value) {
+		else if (effort.value === "" && time.value === "" && item.type === type.value) {
 			localdata.push(item);
 		}
-		// add same for type if needed
+		else if (type.value === "" && item.time === time.value && item.effort === effort.value) {
+			localdata.push(item);
+		}
+		else if (effort.value === "" && item.time === time.value && item.type === type.value) {
+			localdata.push(item);
+		}
+		else if (time.value === "" && item.effort === effort.value && item.type === type.value) {
+			localdata.push(item);
+		}
+		else if (item.time === time.value && item.effort === effort.value && item.type === type.value) {
+			localdata.push(item);
+		}
 	}
+	
+	//added type in 
+	//followed the same format as before 
+	// this is the part that will add the items to the local data
 
 	// to do list
 	// get selector in variables available to me - time and effort so I know what the user is inputting
@@ -59,6 +71,7 @@ const renderItems = () => {
 				<h2>${item.activity}</h2>
 				<p><strong>Time:</strong> ${item.time}</p>
 				<p><em>Effort: ${item.effort}</em></p>
+				<p><em>Type: ${item.type}</em></p>
 			</li>
 		`;
 

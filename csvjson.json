@@ -2,751 +2,1885 @@
   {
     "time": "5 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Look up how \"design\" is written in 3 languages"
   },
   {
     "time": "5 min",
     "effort": "low",
+    "type": "digital",
     "activity": "find 3 album cover designs that inspire you"
   },
   {
     "time": "5 min",
     "effort": "low",
-    "activity": "Doodle 5 logos in 5 minutes"
+    "type": "digital",
+    "activity": "Use Adobe Illustrator to sketch 5 logos in 5 minutes"
   },
   {
     "time": "5 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Play with type on https://pangrampangram.com"
   },
   {
     "time": "5 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Reorganize your Figma file covers"
   },
   {
     "time": "5 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Take a photo of an interesting texture or shadow and play around with it in PS"
   },
   {
     "time": "5 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Create a 2-color palette inspired by your outfit"
   },
   {
     "time": "5 min",
     "effort": "low",
-    "activity": "Find and save 3 effective landing page designs"
+    "type": "digital",
+    "activity": "Sketch 3 effective landing page designs"
   },
   {
     "time": "5 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Scroll Pinterest for food truck branding inspo"
   },
   {
     "time": "5 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Redesign the WhatsApp group icon for your cohort like it’s a global design agency"
   },
   {
     "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Blind Contour Doodle\nDraw your coffee mug (or your hand) without looking at the paper."
+  },
+  {
+    "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Micro Moodboard\nTear out 3 textures/colors from a magazine that describe your current vibe."
+  },
+  {
+    "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Type Treasure Hunt\nSpot and sketch 3 different typefaces in your space."
+  },
+  {
+    "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Glance around. Pick one object. Sketch a minimalist logo for it in under 5 strokes."
+  },
+  {
+    "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "On a sticky note, sketch the homepage of a fake app for your lunch, your pen, or your plant."
+  },
+  {
+    "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Draw 2 quick layouts: one with too little contrast, one with too much. Which feels better?"
+  },
+  {
+    "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Create a 3-word phrase and write it in 3 different visual hierarchies: bold, size, placement."
+  },
+  {
+    "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Fold a piece of paper into 6 or 8 sections. Use each box to experiment with layout or spacing—no tools, just intuition."
+  },
+  {
+    "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Take a familiar logo and redesign it badly on purpose. What makes it feel “wrong”? Instant design gut check."
+  },
+  {
+    "time": "5 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Invent a fake design studio. In 1 minute: Name it. In 2 minutes: Sketch the logotype or wordmark."
+  },
+  {
+    "time": "5 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "ecolor the NYC Subway map using 3 tones"
   },
   {
     "time": "5 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Draft an icon for a “late-night deli” app"
   },
   {
     "time": "5 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a sticker for your alter ego"
   },
   {
     "time": "5 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Create a 2-color palette inspired by your favorite dish"
   },
   {
     "time": "5 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Sketch a tattoo for a designer"
   },
   {
     "time": "5 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Draft a matchbox design for a rooftop bar in SoHo"
   },
   {
     "time": "5 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Choose a random object & redesign its label"
   },
   {
     "time": "5 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a sticker you’d want to find on an NYC lamppost"
   },
   {
     "time": "5 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Reimagine the IKEA logo using serif fonts"
   },
   {
     "time": "5 min",
     "effort": "medium",
+    "type": "unplugged",
+    "activity": "Rebrand an object near you—new name, vibe, and logo sketch."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Sketch the user flow of an app you use—no peeking."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Rebrand your coffee cup like it’s a SoHo concept store. Logo it."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Sketch the user flow of a speakeasy-only jazz streaming app."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Fold a napkin—design 3 poster layouts for a gallery opening."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Write your name like it’s a fashion house, a band, and a deli."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Redesign your snack’s label for Erewhon then your local bodega."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Create a design system for an underground dumpling bar: button, icon, type."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Take 5 words: vintage, slick, loud, soft, expensive. Make each one a vibe."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Sketch a music player UI for a record store in Brooklyn. Now remix it 3 ways."
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Grab 3 items on your desk. Pretend they’re a fashion collab. What’s the drop?"
+  },
+  {
+    "time": "5 min",
+    "effort": "medium",
+    "type": "digital",
     "activity": "Use Google Maps street view to find a hidden storefront in Chinatown, then rebrand it"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Design a fake movie poster starring your dog"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Design a 5-word type-only poster with hierarchy"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Animate your initials in After Effects (lo-fi is fine)"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Turn your initials into a geometric monogram"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a type-only protest sign"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Redesign the packaging for your fav NYC bodega store"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Make a 3D mockup of a cereal box rebrand"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a loading animation for a ramen delivery app"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a logotype for an unnamed fashion brand from Tokyo"
   },
   {
     "time": "5 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Reimagine the Spotify logo for vinyl-only listeners"
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design a logo for a ramen shop owned by Basquiat. No rules."
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Create a subway poster for an art show... happening inside a laundromat."
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Redesign your go-to coffee order as a limited-edition sneaker collab."
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Draw a UI for a playlist generator that pairs music with moods and outfits."
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Make a visual identity for a fake museum that only displays toast."
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Imagine Andy Warhol opened a matcha bar. What’s the merch look like?"
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Sketch a mobile checkout flow for a pop-up at the farmer’s market."
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Invent a branding system for an artist who only paints on pizza boxes."
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Reimagine the NYC MTA as a luxury brand. What’s the type? What’s the vibe?"
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design packaging for cookies that are sold exclusively at Central Park roller discos."
+  },
+  {
+    "time": "5 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design merch for a fictional pop-up bar cart serving artisanal sochu cocktails in the park."
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "browse fonts on FutureFonts & add 3 faves to a list"
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Create a new Behance moodboard for the food you last ate"
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Make a moodboard called “chaotic good design”"
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Redesign the word \"velvet\" to evoke the texture"
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Recreate a poster from a favorite MPS memory"
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Collect 5 menu designs from local spots on Yelp"
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Find skincare packaging from 3 different continents and compare styles"
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Collect screenshots of your favorite cafe interiors"
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Find photos of brutalist buildings & imagine one as a luxury spa"
   },
   {
     "time": "15 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Design the front of a hotel keycard for a place that doesn’t exist"
   },
   {
     "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Design a vinyl record sleeve for the soundtrack of your week."
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Doodle your dream coffee cart—logo, setup, and menu included."
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Create a tote bag design for an indie bookstore you wish existed."
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Draw a menu for a fictional late-night diner run by graphic designers."
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Sketch the business card of your alter ego: fashion archivist, barista, or street poet?"
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Reimagine a museum gift shop as a fashion brand—what’s the signature product?"
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Draw a sticker set for your favorite subway stop’s secret personality."
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Draw a poster for the NYC Marathon for 2026"
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Create a concert poster for a band made up of your favorite typefaces."
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Design a perfume bottle inspired by your last good idea."
+  },
+  {
+    "time": "15 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Curate a fake gallery show titled \"Things I Almost Designed.\" Draw the invite."
+  },
+  {
+    "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "redesign the “I ❤️ NY” logo for 2050"
   },
   {
     "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Stalk the pentagram website and rebrand a logo from a past project"
   },
   {
     "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Create a menu for a ghost kitchen"
   },
   {
     "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Rebrand your favorite podcast"
   },
   {
     "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a business card for the main character of the book you're currently reading"
   },
   {
     "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Reimagine the NYC MetroCard as a premium product"
   },
   {
     "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Layout a social post for a fake museum"
   },
   {
     "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a takeout menu for a jazz-themed dumpling shop"
   },
   {
     "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Pick a typeface and explore 3 moods with it"
   },
   {
     "time": "15 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Create a logo for a mobile app that teaches slang"
   },
   {
     "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Design packaging for an energy bar called “Creative Block.”"
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Rebrand the NYC Marathon as a high-fashion event—poster, logo, or merch."
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Sketch 3 loading screen animations for a dating app for artists."
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Design a book cover for The Secret Life of Sketchbooks."
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Create a style guide for a cookie brand that only sells at midnight."
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Imagine you're an architect for Spotify. Sketch the layout for the “House of Playlists.”"
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Redesign your favorite album cover using only shapes and 3 colors."
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Draw a badge system for a designer who completes tiny creative challenges weekly."
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Create the branding for a portable espresso stand that travels by skateboard."
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Sketch a UI flow for a running app that also gives you typeface recs."
+  },
+  {
+    "time": "15 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Sketch your shirt as a fashion-tech product"
+  },
+  {
+    "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Redesign the home screen of Spotify"
   },
   {
     "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Design a new layout for the parsons student card"
   },
   {
     "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Make packaging for a “designer water” brand sold in SoHo"
   },
   {
     "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Rebrand MoMA PS1 as a secret society"
   },
   {
     "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Build a quick Zine cover in InDesign"
   },
   {
     "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a ticket design for an underground disco in Bushwick"
   },
   {
     "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Redesign a toothpaste box with brutalist style"
   },
   {
     "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Build a playlist cover and title for “Midnight on the F Line”"
   },
   {
     "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Make a fake app icon for “nap in peace”"
   },
   {
     "time": "15 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a set of symbols that represent your last week, abstracted"
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design a visual identity for a speculative art school… inside a moving train."
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Create a limited-edition Central Park running shoe drop—branding, box, and promo idea."
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Build a 3-screen paper prototype for an app that connects local bakers to museum exhibits."
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Rebrand a marathon as a cult wellness brand—name, logo, vibe check."
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Map a journey flow for a first-time visitor to your dream exhibition"
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Build a “design emergency kit” on paper—what’s in it? Draw each item + explain why."
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Sketch UI for a typeface mood-matcher app."
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design packaging for invisible ink markers."
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Sketch onboarding flow for a slow-living social network."
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Create concert merch for Helvetica."
+  },
+  {
+    "time": "15 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Invent icons for “creative burnout” recovery."
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Curate a design playlist on Spotify (covers & all)"
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Design a quick tote bag graphic for your borough"
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Scan your sketchbook & digitize a spread"
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Brand a speakeasy that only serves desserts"
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Find 5 retro ads and moodboard their layout styles"
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Make a typographic layout for a poem in your native language"
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Make a tiny type specimen of your name"
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Create a minimalist poster series based on the ig account \"Overheard new york"
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Flip through a book and recreate a layout in Figma"
   },
   {
     "time": "30 min",
     "effort": "low",
+    "type": "digital",
     "activity": "Create a typeface based on scaffolding shadows"
   },
   {
     "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Make a zine page about your favorite design cliché."
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Doodle the merch for a museum gift shop of dreams."
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Curate a travel kit for your design alter ego."
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Create a moodboard using only what’s in your bag."
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Sketch the poster for your creative coming-of-age movie."
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Draw a typeface based on your high school self."
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Design a tattoo for your favorite emotion."
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Illustrate a meal you wish existed. Make it branded."
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Create a sticker pack for the word “almost.”"
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Redesign a childhood object with today’s aesthetic."
+  },
+  {
+    "time": "30 min",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Make a menu for a pop-up shop that sells feelings."
+  },
+  {
+    "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Redesign a product from Duane Reade"
   },
   {
     "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Make a lowfi flow for Merci markets website"
   },
   {
     "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Make a poster for a fake art auction in Tribeca"
   },
   {
     "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Brand a sound—like crosswalk beeps, or the clack of a MetroCard swipe"
   },
   {
     "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a cover for a zine called “Objects I Don’t Understand”"
   },
   {
     "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a label for a water bottle sourced from “emotional glaciers”"
   },
   {
     "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Redesign your favorite tech brand as if it were founded in 1975"
   },
   {
     "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Redesign the Wi-Fi icon like it’s a luxury brand logo"
   },
   {
     "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Build a logo for a weather app that only works in the rain"
   },
   {
     "time": "30 min",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a “Sign Up” button that could live in a fashion brand’s UI"
   },
   {
     "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Design a visual system for a scent-based subway map."
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Create packaging for a mixtape you’d gift your past self."
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Build a mini brand kit for a bakery that only sells triangles."
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Map a UX flow for a gallery visit… on roller skates."
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Redesign your dream passport—icons, colors, and unconventional stamps."
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Make a 3-spread zine on “things that almost happened.”"
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Create a brand world for a fashion line inspired by soup."
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Design an event poster for a typography-themed block party."
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Reimagine your bedroom as a museum exhibit. Label the artifacts."
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Draw a set of interface components for an app with no screens."
+  },
+  {
+    "time": "30 min",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Make a physical moodboard for a “no tech” social media platform."
+  },
+  {
+    "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Design the packaging and logo for a fictional airline with no destinations"
   },
   {
     "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Art direct a mini campaign for an “invisible” skincare brand"
   },
   {
     "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Build a concept for a gallery pop-up that only lasts 10 minutes"
   },
   {
     "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a micro-landing page in HTML/CSS for a fake indie film festival"
   },
   {
     "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Make a visual UI component kit based on the Bauhaus movement"
   },
   {
     "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Design a monochrome logo for a new adobe AI product"
   },
   {
     "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a mobile nav bar UI with 5 icons, each from a different decade"
   },
   {
     "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Build a card-based layout with hover states inspired by Art-deco composition"
   },
   {
     "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Design a startup brand using only one geometric shape in the entire identity"
   },
   {
     "time": "30 min",
     "effort": "high",
+    "type": "digital",
     "activity": "Design a split-screen landing page layout using shades of green"
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Create a visual language for a lost civilization of designers."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design packaging for a dream you had but forgot."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Build a typeface using only mythological creatures as inspiration."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Invent a physical interface for an app powered by weather."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Map the rituals of a future creative cult—icons, symbols, rules."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Reimagine your daily routine as a speculative architecture project."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Brand a floating market that sells only emotions."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Draw the UI for a time-traveling camera app."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Develop a graphic novel concept with no words—only layout and shape."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Create an identity system for your alter ego’s creative agency."
+  },
+  {
+    "time": "30 min",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design a multisensory pop-up experience inside a parking garage."
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Brand a pop-up installation that appears only at 3am in Times Square"
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Create a new currency and its visual/physical design—bills, coins, digital"
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Recreate an old business card you found online, but make it Gen Z"
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Take your top 5 saved typefaces and design a fake logotype for each"
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Pick a random .io website and redesign their navigation bar"
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Design a fake Venmo payment screen for a ridiculous transaction"
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Make a poster for a band that doesn’t exist but you’d 100% go see"
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Redesign the AirDrop interface as if it were for passing secret notes"
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Make a product label for bottled nostalgia (choose a year)"
   },
   {
     "time": "1 hour",
     "effort": "low",
+    "type": "digital",
     "activity": "Design a Wi-Fi network name and login screen for a secret club"
   },
   {
     "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Create a memory map of your favorite objects—label with feelings."
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Design a menu for a restaurant in space—ambiance, dishes, logo."
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Curate a mini exhibition of imaginary tools you wish existed."
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Make a zine titled \"Things I Missed While Designing."
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Illustrate a series of wearable objects based on your current mood."
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Design a dream journal like a magazine—covers, spreads, issue themes."
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Build a visual archive of your past creative eras. (Name them!)"
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Make a fake travel guide for an entirely made-up country."
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Create packaging for a perfume that only works at midnight."
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Design a punch card system for tracking daily rituals—no productivity allowed."
+  },
+  {
+    "time": "1 hour",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Storyboard a silent film about typography falling in love."
+  },
+  {
+    "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Rebrand a cultural institution (e.g. The Met, MoMA)"
   },
   {
     "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a fake Apple product that’s slightly unhinged (but tasteful)"
   },
   {
     "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Create an Instagram grid for an abandoned building"
   },
   {
     "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Make a logo for your current mood (yes, like right now)"
   },
   {
     "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a concert ticket for a silent disco on a rooftop during a thunderstorm"
   },
   {
     "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Make a digital zine called “Things I’ve Googled This Week”"
   },
   {
     "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Create a landing page for a fake tech startup that makes art out of Excel sheets"
   },
   {
     "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Make a landing page for an art residency that could change your life"
   },
   {
     "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design packaging for a scent called “browser history”"
   },
   {
     "time": "1 hour",
     "effort": "medium",
+    "type": "digital",
     "activity": "Rebrand a USB stick as a luxury artifact"
   },
   {
     "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Design a ceremony for unlearning something—draw the setting, tools, and steps."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Create a scent-mapping system for common emotions. Visualize the interface using color and shape."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Make a set of ghost-friendly public signs or product packaging. Bonus: invent a transparent typeface."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Build an entire alphabet inspired by your favorite snack’s form, texture, and crunch."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Pick one object (toothbrush, camera, cup). Design versions for 1920, 2120, and 3020."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Invent a new zodiac sign for your current design identity. Draw the symbol, moodboard, and horoscope wheel."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Illustrate a house that changes form with the weather. Label the shifts."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Create a currency system based on moods. Sketch the \"bills\" and how transactions work."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Curate an exhibit of typefaces that were forgotten, cursed, or too weird to publish. Include signage."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Map a user journey of how you became friends with someone—IRL flowchart style."
+  },
+  {
+    "time": "1 hour",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Rebrand your block/building/street like it’s a high-end resort. Logo, slogan, map."
+  },
+  {
+    "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Build a complete brand for a fashion capsule launch"
   },
   {
     "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Animate a short video promo for a Harlem jazz event"
   },
   {
     "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Design a visual identity for a record label that only releases subway field recordings"
   },
   {
     "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a UI for a service that lets you rent someone else’s memories"
   },
   {
     "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Create an app interface for lucid dreaming"
   },
   {
     "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Make a website for a secret museum inside a laundromat"
   },
   {
     "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Rebrand your procrastination habit like it’s a wellness brand"
   },
   {
     "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Design the UX for a generative art app based on your walk home"
   },
   {
     "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a speculative UX case study for a product that helps you forget your ex"
   },
   {
     "time": "1 hour",
     "effort": "high",
+    "type": "digital",
     "activity": "Build a typographic identity for a language you just made up"
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Build a brand using taste, scent, sound, and texture."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Create a fictional design school—logo, classes, rituals."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design a creative survival kit—items, packaging, use cases."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Curate an exhibition inside your future apartment."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Invent a no-screen operating system—interface, tools, gestures."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Brand a mythical underground subculture—symbols, merch, language."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Make a 2025 design time capsule—5 artifacts, labels."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Redesign your creative process as a board game."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Build a printed guide for future designers discovering your sketchbook."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Redesign Apple UI just by memory if you were the new Design Director."
+  },
+  {
+    "time": "1 hour",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Rebrand whole foods if you were hired as the Creative Director."
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Reimagine our cohort as a brand, complete with logo, tagline, tone, type"
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Design a limited-edition streetwear drop based on your favorite quote from MPS"
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Redesign your resume like it’s a fashion editorial"
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Go on a photo walk and turn 10 textures into a graphic pattern library"
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Print + collage physical materials into a tactile layout, then digitize it"
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Design your own “emoji language” using basic shapes and type"
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Design a type-only poster based on a diary entry or voice memo"
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Make a little design kit you’d send to your past self: 5 visuals, 1 sentence of advice"
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Go through your photo roll and make a poster using the 5 best photos you forgot you took"
   },
   {
     "time": "2 hours+",
     "effort": "low",
+    "type": "digital",
     "activity": "Make a fake agency website homepage that’s just vibes—no words, just motion and type"
   },
   {
     "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Make a travel scrapbook for a city you’ve never visited."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Build a brand book for your imaginary lifestyle label."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Create a printed moodboard that maps your dream studio space."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Fill a sketchbook page with illustrated versions of your daily rituals."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Curate a magazine spread of your alter ego’s design obsessions."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Design a deck of cards where each card is a tiny poster."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Make a concept book for a scent-based product line."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Reorganize your favorite objects into a visual archive—draw, label, collage."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Design a capsule collection for a design student living on espresso."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Create a fold-out map for a fictional creative residency."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "low",
+    "type": "unplugged",
+    "activity": "Make a paper-based toolkit for finding inspiration on a walk."
+  },
+  {
+    "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Rebrand an NYC neighborhood as a design system"
   },
   {
     "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a speculative design magazine titled MPS Confidential"
   },
   {
     "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Create a multi-page lookbook for a fictional brand"
   },
   {
     "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a zine titled “Small Objects with Big Energy”"
   },
   {
     "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Build a portfolio website concept in Webflow or Figma"
   },
   {
     "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Create the visual identity for a film festival with no films—just sound"
   },
   {
     "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a printed zine featuring your own work"
   },
   {
     "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Design a line of tea that reflects different NYC neighborhoods"
   },
   {
     "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Create a full UI design kit based on a theme"
   },
   {
     "time": "2 hours+",
     "effort": "medium",
+    "type": "digital",
     "activity": "Create packaging for an object that doesn't yet exist but should"
   },
   {
     "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Design a mini magazine about your favorite visual obsession."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Create packaging, labels, and branding for your “house blend” tea."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Build a print-only UX case study of a fictional product."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Make a color-coded catalog of all your past creative eras."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Design a full brand system for an art-forward café concept."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Curate a creative gift box with handmade or designed items."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Create a foldable guide to surviving creative burnout stylishly."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Design a travel identity: passport, currency, map, merch."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Build a multi-spread visual journal based on today’s walk."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Turn your sketchbook into a fake auction catalog."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Design a tactile inspiration wall using only printed materials."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "medium",
+    "type": "unplugged",
+    "activity": "Build a full analog brand book for a fictional company."
+  },
+  {
+    "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Design and prototype an entire app experience"
   },
   {
     "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Build a microsite for a digital archive of your favorite visual references"
   },
   {
     "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Art direct and design an ad campaign for a tech brand"
   },
   {
     "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Reimagine a common digital tool (calendar, email, weather) as a print object"
   },
   {
     "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Rebrand your MPS thesis as a full design system"
   },
   {
     "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Create a full visual identity for a design school of the future"
   },
   {
     "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Create an interactive type specimen"
   },
   {
     "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Design a new format for a portfolio that isn't a website"
   },
   {
     "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Build a case study with visuals, UX, and outcomes"
   },
   {
     "time": "2 hours+",
     "effort": "high",
+    "type": "digital",
     "activity": "Brand a creative agency that only works with scent, food, and memory"
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Write + design a guidebook for an invented creative city."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Make a box set of zines for different sides of your design brain."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design an identity for a festival celebrating your personal design style."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Curate a solo show using only your unused sketchbook pages."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Design a fully-illustrated guidebook for creatives in the year 2080."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Develop an IRL brand system for an imaginary creative university—curriculum, merch, events, philosophy."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Reconstruct your design portfolio as a physical archive box—folders, labels, sketches, backstories."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Build a “future nostalgia” package: rebranding yourself 10 years from now with artifacts and design work."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Create a worldbuilding binder for a fictional studio: history, team, clients, vibe, failures."
+  },
+  {
+    "time": "2 hours+",
+    "effort": "high",
+    "type": "unplugged",
+    "activity": "Build a layered design experience for a space with no internet—wayfinding, storytelling, brand, moments."
   }
 ]
