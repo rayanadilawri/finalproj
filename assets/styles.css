@@ -430,10 +430,7 @@ footer {
   position: fixed;
   top: 0;
   right: 1em;
-  height: auto;
-  display: flex;
-  align-items: top right; 
-  padding-top: 1em; 
+  padding-top: 1em;
   z-index: 99999;
 }
 
@@ -442,7 +439,7 @@ footer {
   flex-direction: column;
   list-style: none;
   padding: 0.4rem;
-  background-color:var(--progress);
+  background-color: var(--progress);
   opacity: 0.8;
   border: 1px solid black;
   border-radius: 16px;
@@ -454,18 +451,19 @@ footer {
   padding: 2px 6px;
   font-weight: bold;
   border-radius: 6px;
-  transition: all 0.2s ease;
   text-align: center;
   display: block;
+  font-size: 1em;
+  transition: all 0.2s ease;
 }
 
 .vertical-nav .nav-link.active {
   background-color: #84076b;
-  color: white; 
+  color: white;
   font-weight: 900;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
- 
+
 
 @media screen and (max-width: 799px) {
   .right-image6 {
