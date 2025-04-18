@@ -256,7 +256,7 @@ select {
   font-size: 1em;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
 
-  margin: 0.6em auto; 
+  margin: auto; 
   display: block;
   text-align: center;
 }
