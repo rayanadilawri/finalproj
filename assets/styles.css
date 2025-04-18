@@ -342,16 +342,28 @@ select {
   gap: 0.8rem;
   }
 
+  .find-button {
+    background-color: var(--continue);
+    font-weight: bold;
+    font-size: 1.6em;
+    margin: 1em;
+    padding: 16px 20px;
+    width: 10em;
+    text-align: center;
+    }
+  
 .continue-button {
 background-color: var(--continue);
 font-weight: bold;
 font-size: 1.2em;
 padding: 16px 20px;
+width: 6em;
+text-align: center;
 }
 
 .continue-button:hover {
   background-color: var(--continue-hover);
-  color: white;
+  color: rgb(62, 24, 24);
   font-weight: bold;
   }
 
@@ -359,6 +371,8 @@ padding: 16px 20px;
 background-color: #57aff1;
 font-size: 1.2em;
 padding: 16px 20px;
+width: 6em;
+text-align: center;
 }
 
 .back-button:hover {
@@ -679,5 +693,10 @@ p {
   display: block;
   text-align: center;
 }
+
+.find-button {
+  font-size: 2em;
+  text-align: center;
+  }
 
 }
