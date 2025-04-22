@@ -19,8 +19,8 @@
 </head>
 <body>
     <main>
-      <!-- welcome screen 0 -->
-      <section id="step0">
+<!-- Step 0: Welcome -->
+       <section id="step0">
         <h1>The Design Dopamine Menu</h1>
         <!-- <a href="page2.html" class="my-history">Our Masterpieces</a> -->
         <div class="anchor-group"> 
@@ -28,7 +28,7 @@
         </div>
       </section>
       
-<!-- about the activity 1  -->
+<!-- Step 1:  About -->
       <section id="step1">
          <div class="section-content text-on-left">
             <div class="left-image1"></div> 
@@ -50,30 +50,31 @@
 <!-- it works by linking the page to the a href link and this was helpful for my project because it allowed me to create next and back buttons by linking it to the previous and next pages in my html-->
 
 
-<!-- time selection 2-->
+<!-- Step 2: Time Selection -->
 <section id="step2">
   <div class="section-content">
     <div class="image-half right-image2"></div>
-      <div class="text-half">
-        <h2> Time</h2>
-        <div class="dropdown">
-          <label for="time"></label>
-          <select id="time">
-            <option value="" selected disabled>Enter Preference ▼</option>
-            <option value="5 min">5 min</option>
-            <option value="15 min">15 min</option>
-            <option value="30 min">30 min</option>
-            <option value="1 hour">1 hour</option>
-            <option value="2 hours+">2 hours+</option>
-          </select>
-        </div>
-        <div class="anchor-group">
-          <a href="#step1" class="anchor-scroll-button back-button">Back</a>
-          <a href="#step3" class="anchor-scroll-button continue-button">Next</a>
-        </div>
+    <div class="text-half">
+      <h2>Time</h2>
+      <div class="dropdown">
+        <label for="time"></label>
+        <select id="time">
+          <option value="" selected disabled>Enter Preference ▼</option>
+          <option value="5 min">5 min</option>
+          <option value="15 min">15 min</option>
+          <option value="30 min">30 min</option>
+          <option value="1 hour">1 hour</option>
+          <option value="2 hours+">2 hours+</option>
+        </select>
+      </div>
+      <div class="anchor-group">
+        <a href="#step1" class="anchor-scroll-button back-button">Back</a>
+        <a href="#step3" class="anchor-scroll-button continue-button">Next</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- <section id="step1">
     <div class="section-content">
@@ -86,29 +87,30 @@
     </div>
   </section> -->
 
-
-  <section id="step3">
-    <div class="section-content text-on-left">
-      <div class="left-image3"></div> 
-      <div class="text-half">
-        <h2>Effort</h2>
-        <div class="dropdown">
-          <label for="effort"></label>
-          <select id="effort">
-            <option value="" selected disabled>Enter Preference ▼</option>
-            <option value="low">Low Energy</option>
-            <option value="medium">Medium Energy</option>
-            <option value="high">High Energy</option>
-          </select>
-        </div>
-        <div class="anchor-group"> 
-            <a href="#step2" class="anchor-scroll-button back-button">Back</a>
-            <a href="#step4" class="anchor-scroll-button continue-button">Next</a>
+<!-- Step 3: Effort Selection -->
+<section id="step3">
+  <div class="section-content text-on-left">
+    <div class="left-image3"></div> 
+    <div class="text-half">
+      <h2>Effort</h2>
+      <div class="dropdown">
+        <label for="effort"></label>
+        <select id="effort">
+          <option value="" selected disabled>Enter Preference ▼</option>
+          <option value="low">Low Energy</option>
+          <option value="medium">Medium Energy</option>
+          <option value="high">High Energy</option>
+        </select>
+      </div>
+      <div class="anchor-group"> 
+        <a href="#step2" class="anchor-scroll-button back-button">Back</a>
+        <a href="#step4" class="anchor-scroll-button continue-button">Next</a>
       </div>
     </div>
-    </div>
-  </section>
+  </div>
+</section>
 
+<!-- Step 4: type Selection -->
   <section id="step4">
     <div class="section-content">
         <div class="right-image4"></div> 
