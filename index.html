@@ -4,54 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/reset.css" rel="stylesheet">
-	<link href="assets/styles.css" rel="stylesheet">
+	  <link href="assets/styles.css" rel="stylesheet">
     <script defer src="script.js"></script>
     <script defer src="csvjson.json"></script>
    
 
 <!-- Fonts -->
-
 <!-- font 1- header -->
     <link href="https://fonts.cdnfonts.com/css/sf-new-republic-2" rel="stylesheet">
-
+<!-- font 2- body -->
     <link href="https://fonts.cdnfonts.com/css/bochan-serif" rel="stylesheet">
                 
-<!-- font 2- body -->
-
     <title>Final Project</title>
 </head>
-
 <body>
     <main>
-        <section id="step0">
-    <h1>The Design Dopamine Menu</h1>
-    <!-- <a href="page2.html" class="my-history">Our Masterpieces</a> -->
-    <div class="anchor-group"> 
-    <a href="#step1" class="anchor-scroll-button find-button">Find your activity</a>
-    </div>
-</section>
-
-<section id="step1">
-    <div class="section-content text-on-left">
-      <div class="left-image1"></div> 
-      <div class="text-half">
-        <h2>About the activity</h2>
-        <p class="intro">Welcome to the Design Dopamine Menu — your creative escape for the corporate lunch break. This bite-sized tool serves up design prompts based on your time, energy, and screen preference. Whether you’ve got five minutes or a full hour, you’ll find the perfect spark — or let the site surprise you. Built with HTML, CSS, and JavaScript, it’s your permission slip to design just for fun.</p>      
-          <div class="anchor-group"> 
-        <a href="#step0" class="anchor-scroll-button back-button">Back</a>
-        <a href="#step2" class="anchor-scroll-button continue-button">Next</a>
+      <!-- welcome screen 0 -->
+      <section id="step0">
+        <h1>The Design Dopamine Menu</h1>
+        <!-- <a href="page2.html" class="my-history">Our Masterpieces</a> -->
+        <div class="anchor-group"> 
+           <a href="#step1" class="anchor-scroll-button find-button">Find your activity</a>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+      
+<!-- about the activity 1  -->
+      <section id="step1">
+         <div class="section-content text-on-left">
+            <div class="left-image1"></div> 
+              <div class="text-half">
+                 <h2>About the activity</h2>
+                  <p class="intro">Welcome to the Design Dopamine Menu — your creative escape for the corporate lunch break. This bite-sized tool serves up design prompts based on your time, energy, and screen preference. Whether you’ve got five minutes or a full hour, you’ll find the perfect spark — or let the site surprise you. Built with HTML, CSS, and JavaScript, it’s your permission slip to design just for fun.
+                  </p>      
+                  <div class="anchor-group"> 
+                    <a href="#step0" class="anchor-scroll-button back-button">Back</a>
+                    <a href="#step2" class="anchor-scroll-button continue-button">Next</a>
+                  </div>
+                </div>
+              </div>
+        </section>
 
 <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a -->
+<!--annotation for anchor element -->
+<!-- this website taught me about anchor group and that it works by creating a hyperlink to different pages or outside links-->
+<!-- it works by linking the page to the a href link and this was helpful for my project because it allowed me to create next and back buttons by linking it to the previous and next pages in my html-->
 
 
-
+<!-- time selection 2-->
 <section id="step2">
-    <div class="section-content">
-        <div class="image-half right-image2"></div>
+  <div class="section-content">
+    <div class="image-half right-image2"></div>
       <div class="text-half">
         <h2> Time</h2>
         <div class="dropdown">
@@ -66,8 +68,8 @@
           </select>
         </div>
         <div class="anchor-group">
-            <a href="#step1" class="anchor-scroll-button back-button">Back</a>
-            <a href="#step3" class="anchor-scroll-button continue-button">Next</a>
+          <a href="#step1" class="anchor-scroll-button back-button">Back</a>
+          <a href="#step3" class="anchor-scroll-button continue-button">Next</a>
         </div>
       </div>
     </div>
