@@ -11,7 +11,9 @@
   --step-5: #fca32f;
   --step-6: #bbf7af;
   --text-dark: rgb(14, 2, 51); 
+  --dark-blue: #103ed5;
   --progress: #f3afed;
+
 
  --continue: #e934da;
  --continue-hover: #83005b;
@@ -241,6 +243,35 @@ select {
 
 /* Buttons */
 
+.continue-button {
+  background-color: var(--continue);
+  font-size: 1.6em;
+  padding: 16px 20px;
+  width: 8em;
+  text-align: center;
+  }
+  
+  .continue-button:hover {
+    background-color: var(--continue-hover);
+    color: rgb(62, 24, 24);
+    font-weight: bold;
+    }
+  
+  .back-button {
+  background-color: var(--primary-blue);
+  font-size: 1.6em;
+  padding: 16px 20px;
+  width: 8em;
+  text-align: center;
+  }
+  
+  .back-button:hover {
+    background-color: var(--dark-blue);
+    color: white;
+    font-weight: bold;
+    }
+
+    
 #time,
 #type,
 #effort {
@@ -293,13 +324,13 @@ select {
       .generate-button {
         background-color: var(--continue);
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 1.6em;
 
         display: inline-block;
         padding: 16px 20px;
         text-decoration: none;
         border-radius: 4px; 
-        font-weight: 500;
+        font-weight: bold;
         width: 8em;
         }
         
@@ -325,7 +356,7 @@ select {
   padding: 10px 14px;
   text-decoration: none;
   border-radius: 4px; 
-  font-size: 14px;
+  font-size: 1.6em;
   font-weight: 500;
   width: 8em;
 }
@@ -348,33 +379,7 @@ select {
     text-align: center;
     }
   
-.continue-button {
-background-color: var(--continue);
-font-size: 1.2em;
-padding: 16px 20px;
-width: 8em;
-text-align: center;
-}
 
-.continue-button:hover {
-  background-color: var(--continue-hover);
-  color: rgb(62, 24, 24);
-  font-weight: bold;
-  }
-
-.back-button {
-background-color: #57aff1;
-font-size: 1.2em;
-padding: 16px 20px;
-width: 8em;
-text-align: center;
-}
-
-.back-button:hover {
-  background-color: #103ed5;
-  color: white;
-  font-weight: bold;
-  }
 
 /* Output List */
 .output li {
@@ -397,10 +402,16 @@ font-weight: normal;
 /* Footer that stays at bottom */
 footer {
   width: 100%;
-  padding: 20px;
+  padding: 0.6em;
   background-color: var(--progress);
   text-align: center;
   margin-top: auto;
+}
+.footertext {
+  font-size: 1em;
+  color: var(--text-dark);
+  padding: 0.2em;
+  line-height: 0.6em;
 }
 
 /* 
@@ -463,6 +474,8 @@ footer {
   font-weight: 900;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
+
+
 
 
 @media screen and (max-width: 799px) {
@@ -675,29 +688,33 @@ p {
     font-weight: bold;
     font-size: 1.6em;
     padding: 16px 20px;
-    width: 10em;
+    width: 8em;
     }
     
     .continue-button:hover {
       background-color: var(--continue-hover);
-      color: white;
+      color: var(--text-white);
       font-weight: bold;
       }
     
+      
+
     .back-button {
-    background-color: #57aff1;
+    background-color: var(--primary-blue);
+    font-weight: bold;
     font-size: 1.6em;
-    width: 10em;
     padding: 16px 20px;
+    width: 8em;
     }
     
     .back-button:hover {
-      background-color: #103ed5;
-      color: white;
+      background-color: var(--dark-blue);
+      color: var(--text-white);
+      font-weight: bold;
       }
   
       .generate-button {
-        width: 10em;
+        width: 8em;
         font-size: 1.6em;
       }
 
@@ -725,4 +742,5 @@ p {
   text-align: center;
   }
 
+  
 }
