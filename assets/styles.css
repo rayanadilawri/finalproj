@@ -742,5 +742,11 @@ p {
   text-align: center;
   }
 
+  .footertext {
+    font-size: 1em;
+    color: var(--text-dark);
+    padding: 0.2em;
+    line-height: 0.4em;
+  }
   
 }
