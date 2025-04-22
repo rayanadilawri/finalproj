@@ -1,5 +1,4 @@
 /* Defining CSS Variables */
-/*colors*/
 :root {
   --primary-blue: #57aff1;
   --background-blue: #ffffff;
@@ -18,10 +17,7 @@
  --continue-hover: #83005b;
 }
 
-
-body {
-text-align: center;
-}
+/*LAYOUT*/ 
 
 html, body {
   height: 100%;
@@ -36,9 +32,18 @@ html {
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior */
+/* scroll-behavior: smooth; allows my scroll to be smooth vs auto scroll settings. this helps my project because of the vertival nav bar along with the anchor scroll buttons. this way, i can ensure the scrolling behaviour of the page is all the same and smooth */
+
+
+body {
+  text-align: center;
+  }
+
+  main {
+    flex: 1;
+  }
 
 section {
-
     min-height: 80vh; 
     padding: 4rem 2rem;
     display: flex;
@@ -46,25 +51,41 @@ section {
     justify-content: center;
   }
 
+  /* typography */
+h1 {
+  font-family: 'Bochan Serif', sans-serif; 
+  font-size: 2.4em;
+  }
+  
+  h2 {
+  font-family: 'Bochan Serif', sans-serif; 
+  font-size: 1.5em;
+  padding-bottom: 0.2em;
+  }
+  
+  .title {
+    padding: 2em;
+  }
+  
+  .intro {
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    }
+
+.subtext {
+  font-size: 1.2em;
+  font-style: italic;
+  padding: 1em;
+    }
+    
+/*section styling*/ 
 
 .section-content {
   display: flex;
   flex-direction: column; 
 }
-
-
-#step0 {
-  background-image: url('../assets/gradient0.jpg');
-  opacity: 0.8;
-  background-size: cover;
-  background-position: center;
-  min-height: 95vh;
-  padding: 4rem 2rem;
-  color: var(--text-dark);
-  background-color: var(--step-0);
-}
-
-
 
 .section-content {
   display: flex;
@@ -82,10 +103,45 @@ section {
 
 }
 
+#step0 {
+  background-image: url('../assets/gradient0.jpg');
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  min-height: 95vh;
+  padding: 4rem 2rem;
+  color: var(--text-dark);
+  background-color: var(--step-0);
+}
+
+/*step styling*/
 
 #step1 {
   background-color: var(--step-1);
 }
+
+
+#step2 {
+  background-color: var(--step-2);
+}
+
+#step3 {
+  background-color: var(--step-3);
+}
+
+#step4 {
+  background-color: var(--step-4);
+}
+
+#step5 {
+  background-color: var(--step-5);
+}
+
+#step6 {
+  background-color: var(--step-6);
+}
+
+/* image styling */
 
 .left-image1 {
   flex: 1;
@@ -94,10 +150,6 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 35vh; 
-}
-
-#step2 {
-  background-color: var(--step-2);
 }
 
 .right-image2 {
@@ -109,9 +161,6 @@ section {
   min-height: 35vh; 
 }
 
-#step3 {
-  background-color: var(--step-3);
-}
 
 .left-image3 {
   flex: 1;
@@ -122,9 +171,6 @@ section {
   min-height: 35vh; 
 }
 
-#step4 {
-  background-color: var(--step-4);
-}
 
 .right-image4 {
   flex: 1;
@@ -136,9 +182,6 @@ section {
 }
 
 
-#step5 {
-  background-color: var(--step-5);
-}
 
 .left-image5 {
   flex: 1;
@@ -150,40 +193,6 @@ section {
 }
 
 
-#step6 {
-  background-color: var(--step-6);
-}
-
-
-
-.intro {
-text-align: left;
-padding-top: 1em;
-padding-bottom: 1em;
-font-size: 1.2em;
-}
-
-main {
-  flex: 1;
-}
-
-/* Headings */
-h1 {
-font-family: 'Bochan Serif', sans-serif; 
-font-size: 2.4em;
-}
-
-h2 {
-font-family: 'Bochan Serif', sans-serif; 
-font-size: 1.5em;
-padding-bottom: 0.2em;
-}
-
-.title {
-  padding: 2em;
-}
-
-
 
 /* Header */
 header {
@@ -192,21 +201,11 @@ header {
   padding: 20px;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
 .my-history {
   font-size: 20px;
   text-decoration: none;
 }
 
-.subtext {
-  font-size: 1.2em;
-  font-style: italic;
-  padding: 1em;
-}
 
 /* Dropdowns */
 .options {
@@ -240,12 +239,7 @@ select {
 }
 
 
-
 /* Buttons */
-
-
-
-
 
 #time,
 #type,
@@ -431,6 +425,7 @@ footer {
 }
  */
 
+ /* Vertical Navigation */
  .vertical-nav {
   position: fixed;
   top: 0;
