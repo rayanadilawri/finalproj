@@ -326,6 +326,7 @@ select {
         font-weight: bold;
         font-size: 1.6em;
 
+        text-align: center;
         display: inline-block;
         padding: 16px 20px;
         text-decoration: none;
@@ -334,6 +335,8 @@ select {
         width: 8em;
         }
         
+    
+
        .generate-button:hover {
           background-color: var(--continue-hover);
           color: white;
@@ -353,7 +356,6 @@ select {
 
 .anchor-scroll-button  {
   display: inline-block;
-  padding: 10px 14px;
   text-decoration: none;
   border-radius: 4px; 
   font-size: 1.6em;
@@ -712,11 +714,11 @@ p {
       color: var(--text-white);
       font-weight: bold;
       }
-  
+/*   
       .generate-button {
         width: 8em;
         font-size: 1.6em;
-      }
+      } */
 
       #time,
 #type,
