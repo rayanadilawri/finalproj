@@ -1,5 +1,6 @@
 let globaldata;
 
+//global data is all the spreadsheet infomation, learned this in my tutor sessions with viyan poonamalee - we spent 2 lessons leanring about local vs global data and how to apply it then i applied it to my own project
 // Function to render your items
 const renderItems = () => {
 	// The `ul` where the items will be inserted
@@ -46,6 +47,17 @@ const renderItems = () => {
 		}
 	}
 	
+	// viyan poonamallee helped me learn about local and and global data 
+	// this works by having the global data (whole spread sheet) and then filtering it down to the local data (the data that the user has selected)
+	// this part was super helpful for my project because i was able to filter the different data sets i wanted to show (all data, just time, just energy, both tenergy and type,...etc - all the combinations)
+	// it was essential for my key product to work, as before i had this, all the data would show, no matter which buttons you pressed
+	//because of this function i built, I was able to filter the data based on the buttons the user pressed, to achieve the core functionality!
+
+	// i used https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+// https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+// this was helpful for my work because it achieves the task i wanted 
+// query selector gets the generate button and the event it's listening to is to guide the viewer to step 6 (the activity result page)
+
 	//added type in 
 	//followed the same format as before 
 	// this is the part that will add the items to the local data
@@ -118,6 +130,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 // https://javascript.info/onscroll/ — helped me with the scrolling function
 // It was helpful for my project to build the vertical scroll nav 
 // it works by getting the current position of the scroll and relating it to the number / position of the sections
+// it highlights the nav link through my active css code and correlates it to the active page that the user is on  
 // https://www.freecodecamp.org/news/how-to-create-a-scrollspy-with-javascript/
 // https://stackoverflow.com/questions/43500315/highlighting-links-based-on-scroll-position
 // https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
